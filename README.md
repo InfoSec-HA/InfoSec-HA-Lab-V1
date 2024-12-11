@@ -54,7 +54,7 @@ sudo ./setup.sh
 
 ------------------------------
 
-The login details
+Login details
 
 for xvwa :
 ```php

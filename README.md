@@ -6,7 +6,7 @@ This project is trying to help the community to install their own lab for web be
 
 This is how it looks:
 
-![alt text](https://github.com/InfoSec-HA "Pic 1")
+![image alt](https://github.com/InfoSec-HA/InfoSec-HA-Lab-V1/blob/main/InfoSec_HA.png?raw=true)
 
 Now this is what is InfoSec-HA-Lab-V1 include .
 

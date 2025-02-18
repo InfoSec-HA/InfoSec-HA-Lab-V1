@@ -16,6 +16,7 @@ Now this is what is InfoSec-HA-Lab-V1 include .
 4. mutillidae
 5. hackademic
 6. sqli-labs
+7. xss-lab
 
 # And this what will be in version 2
 
@@ -79,6 +80,5 @@ pass:password
 ```
 
 
-############################
-## Contact With Twitter ##
+## Contact: X ##
 [InfoSec-HA-Lab](https://twitter.com/InfoSec-HA)

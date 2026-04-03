@@ -1,97 +1,106 @@
-![image alt](https://github.com/InfoSec-HA/InfoSec-HA-Lab-V1/blob/main/attacker.png?raw=true)
-## InfoSec-HA-lab version 1
+# 🛡️ InfoSec-HA Lab v1
 
-Are you tired of the long and painful process of setting up penetration testing environments manually? 
-Welcome to InfoSec-HA-Lab, a powerful and community-driven project designed to make your life easier. With just one click, you can install and deploy a complete web application security lab—no errors, no complexities, and no wasted time, inshallah.
+<p align="center">
+  <img src="https://github.com/InfoSec-HA/InfoSec-HA-Lab-V1/blob/main/attacker.png?raw=true" width="600"/>
+</p>
 
+<p align="center">
+  <b>🚀 One-Click Web Application Security Lab</b><br>
+  <i>Fast • Automated • No Errors • Ready to Hack</i>
+</p>
 
-## 🛡️ What is InfoSec-HA-Lab?
+<p align="center">
+  <img src="https://img.shields.io/github/stars/InfoSec-HA/InfoSec-HA-Lab-V1?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/InfoSec-HA/InfoSec-HA-Lab-V1?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/InfoSec-HA/InfoSec-HA-Lab-V1?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Made%20with-Bash-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Security-Lab-red?style=for-the-badge">
+</p>
 
-InfoSec-HA-Lab (High-Availability Cybersecurity Lab) is a pre configured, containerized platform that bundles popular vulnerable web applications and training environments. Its mission is to democratize access to cybersecurity education by eliminating installation headaches.
+---
 
-This is how it looks:
+## 📌 Table of Contents
 
-![image alt](https://github.com/InfoSec-HA/InfoSec-HA-Lab-V1/blob/main/InfoSec_HA.png?raw=true)
+- [Overview](#-overview)
+- [What is InfoSec-HA Lab](#-what-is-infosec-ha-lab)
+- [Lab Preview](#-lab-preview)
+- [Included Labs](#-included-labs-version-1)
+- [Coming Soon](#-coming-soon-version-2)
+- [Why InfoSec-HA Lab](#-why-infosec-ha-lab)
+- [System Requirements](#-system-requirements)
+- [Installation Guide](#-installation-guide)
+- [Default Credentials](#-default-credentials)
+- [Disclaimer](#-disclaimer)
+- [Contact](#-contact--community)
+- [Support](#-support-the-project)
 
-# What’s Included in InfoSec-HA-Lab V1?
+---
 
-1. bWAPP
-2. xvwa
-3. dvwa
-4. mutillidae
-5. hackademic
-6. sqli-labs
-7. xss-lab
- 
-# 🚀 Coming Soon in Version 2
+## 🚀 Overview
 
-We're already working on the next upgrade—InfoSec-HA-Lab V2—which will include even more powerful labs to extend your learning experience:
+Are you tired of the **time-consuming and error-prone process** of setting up penetration testing labs manually?
 
-7. rapid7 hackazon
-8. WebGoat
-9. owasp juice shop
-10. WackoPicko
-11. Damn Vulnerable NodeJS Application
+Welcome to **InfoSec-HA Lab** — a powerful, automated, and community-driven platform designed to simplify your cybersecurity learning journey.
 
-# 🌍 Why InfoSec-HA-Lab Matters
+> ⚡ Deploy a full web security lab in **one click** — no complexity, no errors.
 
-In a world where cybersecurity threats are evolving rapidly, hands-on practice is no longer optional—it’s essential. InfoSec-HA-Lab eliminates setup barriers and allows you to focus on what truly matters: learning, experimenting, and mastering web application security.
+---
 
-Whether you're preparing for certifications, hunting bugs, or simply exploring new attack vectors, InfoSec-HA-Lab is your ideal companion.
+## 🧠 What is InfoSec-HA Lab?
 
-# Server Installation 
+**InfoSec-HA Lab (High-Availability Cybersecurity Lab)** is a **pre-configured environment** that includes intentionally vulnerable web applications.
 
-You can download Ubuntu server 2018 64 and it's the best one with php7.2 7.3 platform:
-[Download Ubuntu Server 64]
-```
+🎯 **Mission:**  
+Make cybersecurity learning accessible and practical for everyone.
+
+---
+
+## 📸 Lab Preview
+
+<p align="center">
+  <img src="https://github.com/InfoSec-HA/InfoSec-HA-Lab-V1/blob/main/InfoSec_HA.png?raw=true"/>
+</p>
+
+---
+
+## 📦 Included Labs (Version 1)
+
+- 🔓 **bWAPP**
+- 🐞 **DVWA**
+- 🧪 **XVWA**
+- 🐍 **Mutillidae II**
+- 🎓 **Hackademic**
+- 💉 **SQLi Labs**
+- ⚡ **XSS Lab**
+
+---
+
+## 🚀 Coming Soon (Version 2)
+
+- 🛒 **Rapid7 Hackazon**
+- 🐐 **WebGoat**
+- 🧃 **OWASP Juice Shop**
+- 🎯 **WackoPicko**
+- 🟢 **DVNA (NodeJS Vulnerable App)**
+
+---
+
+## 🌍 Why InfoSec-HA Lab?
+
+- ⚡ No manual setup
+- 🎯 Focus on real vulnerabilities
+- 🐞 Perfect for Bug Bounty
+- 🧪 Safe testing environment
+- 📚 Certification preparation
+
+---
+
+## 🖥️ System Requirements
+
+- OS: **Ubuntu Server 18.04 (64-bit)**
+- PHP: **7.2 – 7.3**
+- RAM: **4GB+ Recommended**
+- Disk: **20GB+**
+
+📥 Download:
 https://old-releases.ubuntu.com/releases/18.04.5/ubuntu-18.04.5-live-server-amd64.iso
-```
-
-Please note that PHP version 7.2 is require.
-
-------------------------------
-Run Script :
-
-```
-sudo apt-get install git
-
-sudo git clone https://github.com/InfoSec-HA/InfoSec-HA-Lab-V1.git
-
-cd InfoSec-HA-Lab-V1
-
-sudo chmod +x setup.sh
-
-sudo ./setup.sh
-
-
-```
-
-------------------------------
-
-Login details
-
-for xvwa :
-```php
-admin:admin
-xvwa:xvwa
-user:vulnerable
-```
-for Mutillidae :
-```php
-admin:admin
-pass:adminpass
-```
-for bWAPP :
-```php
-admin:bee
-pass:bug
-```
-for dvwa :
-```php
-admin:admin
-pass:password
-```
-
-
-## Contact: X ##
-[InfoSec-HA-Lab](https://twitter.com/InfoSec-HA)

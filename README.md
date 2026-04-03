@@ -104,3 +104,48 @@ Make cybersecurity learning accessible and practical for everyone.
 
 📥 Download:
 https://old-releases.ubuntu.com/releases/18.04.5/ubuntu-18.04.5-live-server-amd64.iso
+
+---
+
+## ⚙️ Installation Guide
+
+```bash
+# Update system
+sudo apt-get update
+
+# Install Git
+sudo apt-get install git -y
+
+# Clone project
+git clone https://github.com/InfoSec-HA/InfoSec-HA-Lab-V1.git
+
+cd InfoSec-HA-Lab-V1
+
+# Permissions
+chmod +x setup.sh
+
+# Run
+sudo ./setup.sh
+
+🔐 Default Credentials
+XVWA
+admin : admin
+xvwa  : xvwa
+user  : vulnerable
+Mutillidae
+admin : admin
+pass  : adminpass
+bWAPP
+admin : bee
+pass  : bug
+DVWA
+admin : admin
+pass  : password
+
+⚠️ Disclaimer
+For educational & ethical use only
+Do NOT use for illegal activities
+
+📬 Contact
+🐦 Twitter (X): https://twitter.com/InfoSec-HA
+
